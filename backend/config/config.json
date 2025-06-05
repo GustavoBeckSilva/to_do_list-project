@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "postgres",
-    "password": "in123put",
+    "password": "postgres",
     "database": "db_to_do_list",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "password": "in123put",
+    "password": "postgres",
     "database": "db_to_do_list",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
-    "password": "in123put",
+    "password": "postgres",
     "database": "db_to_do_list",
     "host": "127.0.0.1",
     "dialect": "postgres"

@@ -1,9 +1,12 @@
 const express = require('express');
 const db = require('../models');
+const cors = require('cors'); 
 const { Tarefa } = db;
 
 const app = express();
 app.use(express.json());
+
+app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
